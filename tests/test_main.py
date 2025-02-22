@@ -13,7 +13,7 @@ def test_add():
   assert add("1.4", "2", 3) == "error"
   assert add(2.5, 3, "x") == "error"
   assert add(2.1, 9.3, 3.7) == 14
-  assert add(1, 6, 3) == 1
+  assert add(1, 6, 3) == 10
   assert add("a", None) == "error"
   assert add(1.6, 2.5, 3.7) == 7
   assert add(3.1, 2) == 5
